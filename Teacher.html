@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Teacher Result</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+              <!-- Navigation -->
+          <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+            <div class="container">
+              <a class="navbar-brand js-scroll-trigger" href="#page-top">ADGITM</a>
+              <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fa fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="login.html" data-toggle="modal" data-target="#exampleModal">Log Out</a>
+                  </li>
+                  <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#Admin">Admin Panel</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <br><br><br><br><br>
+
+
+     <section id="Admin">
+
+       <div class="content-wrapper">
+         <div class="container-fluid">
+           <!-- Breadcrumbs-->
+           <ol class="breadcrumb">
+             <li class="breadcrumb-item">
+               <a href="#">Dashboard</a>
+             </li>
+             <li class="breadcrumb-item active">Teacher Result</li>
+           </ol>
+
+
+           <header class="jumbotron bg-primary text-white text-center" >
+             <div class="container">
+               <h2 class="font-weight-light mb-0">Name : Tiger Nixon
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 &nbsp;<span>Average Rating : 4.0</span></h2>
+                 &nbsp;&nbsp;&nbsp;&nbsp;
+                 &nbsp;&nbsp;&nbsp;&nbsp;
+               <h3 class="font-weight-light mb-0">
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <span>Subject : STLD</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <span>Department : IT</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <span>Section : S9</span>&nbsp;
+               </h3>
+             </div>
+           </header>
+
+           
+           <div class="card-body">
+             <canvas id="myAreaChart" width="0%" height="0"></canvas>
+           </div>
+           <div class="row">
+           <div class="col-lg-8">
+             <!-- Example Bar Chart Card-->
+             <div class="card mb-3">
+               <div class="card-header">
+                 <i class="fa fa-bar-chart"></i> Assessment Ratings </div>
+               <div class="card-body">
+                 <canvas id="myBarChart" width="100" height="50"></canvas>
+               </div>
+               <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+             </div>
+           </div>
+
+           <div class="col-lg-4">
+             <!-- Example Pie Chart Card-->
+             <div class="card mb-3">
+               <div class="card-header">
+                 <i class="fa fa-pie-chart"></i> Pie Chart Of Star Ratings Given</div>
+               <div class="card-body">
+                 <canvas id="myPieChart" width="100%" height="100"></canvas>
+               </div>
+               <br>
+               <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+             </div>
+           </div>
+         </div>
+
+         <!-- Logout Modal-->
+         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+           <div class="modal-dialog" role="document">
+             <div class="modal-content">
+               <div class="modal-header">
+                 <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                 <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                   <span aria-hidden="true">×</span>
+                 </button>
+               </div>
+               <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+               <div class="modal-footer">
+                 <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                 <a class="btn btn-primary" href="login.html">Logout</a>
+               </div>
+             </div>
+           </div>
+         </div>
+
+
+
+
+        </section>
+          <!-- Bootstrap core JavaScript -->
+          <script src="vendor/jquery/jquery.min.js"></script>
+          <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+          <!-- Plugin JavaScript -->
+          <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+          <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+          <!-- Contact Form JavaScript -->
+          <script src="js/jqBootstrapValidation.js"></script>
+          <script src="js/contact_me.js"></script>
+          <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+          <!-- Custom scripts for this template -->
+          <script src="js/freelancer.min.js"></script>
+
+          <script src="vendor/chart.js/Chart.min.js"></script>
+
+          <script src="js/sb-admin-charts.min.js"></script>
+
+         </body>
+       </html>
